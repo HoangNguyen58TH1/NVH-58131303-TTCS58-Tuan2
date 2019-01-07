@@ -1,0 +1,25 @@
+4
+1. Ca co ngu khong? 
+a. Co
+b. Khong
+c. No chi nghi ngoi chu khong ngu
+d. Tuy loai ca.
+a
+2. Con nhen có bao nhieu mat?
+a. 2 mat
+b. 4 mat
+c. 6 mat
+d. 8 mat
+d
+3. Mot nam tuoi cua nguoi bang may nam tuoi cua cho?
+a. 7 nam
+b. 4 nam
+c. 9 nam
+d. khong do luong duoc.
+d
+4. Mat meo co nhin ro nhu mat nguoi hay khong?
+a. Khong
+b. Co
+c. Ro hon vao ban dem nhung can thi vao ban ngày
+d. R hon vao ban ngay nhung can thi vao ban dem.
+c
