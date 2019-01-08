@@ -1,9 +1,8 @@
-2
 001
 Nguyen Van A
 30
 30000
 002
 Nguyen Van B
-35
-34000
+40
+40000
