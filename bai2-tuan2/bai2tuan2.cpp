@@ -14,6 +14,7 @@ nhanvien nv;
 
 vector <nhanvien> dsNV;
 char tenfile[12]="input2.txt";
+char file_output[12]="output2.txt";
 //--------------------------------------------
 //khai bao tat ca cac ham trong chuong trinh.
 void showMenu();
@@ -23,10 +24,11 @@ void inNV(nhanvien nv);
 void inDSNV();
 nhanvien NhapNVtuBP();
 void docfile(char* tenfile);// doc file
+void ghifile(char* tenfile);// ghi file
 bool xoaNV(char* nvID);
 void editNV(nhanvien nvEdit);
 bool search_nvID(char *nvMA);
-void ghifile(char* tenfile);// ghi file
+
 //--------------------------------------------
 //ham int main
 int main()
@@ -37,6 +39,7 @@ int main()
 	///bat dau xu ly
 	showMenu();
 	chon();
+	ghifile(tenfile);
 	system("pause");
 }
 //--------------------------------------------
@@ -218,7 +221,7 @@ bool search_nvID(char* nvMA){
 void ghifile(char* tenfile)
 {
 	fstream file;
-	file.open(tenfile,ios::out);
+	file.open(file_output,ios::out);
 	if (file.fail())
 		cout<<"khong mo duoc file !!"<<endl;
 	else
