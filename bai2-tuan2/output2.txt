@@ -1,8 +1,16 @@
-001
-nguyen thi thanh tuy
+123
+Nguyen Van Hoang
+21
+12345
+003
+Dinh Thi Kim Thoa
+50
+50000
+004
+Nguyen Van Linh
+60
+60000
+978
+Nguyen Tuan Anh
 25
 19000
-123
-nguyen van hoang
-20
-15000
