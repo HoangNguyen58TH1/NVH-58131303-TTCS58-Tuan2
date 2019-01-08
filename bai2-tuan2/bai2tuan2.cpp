@@ -26,30 +26,17 @@ void docfile(char* tenfile);// doc file
 bool xoaNV(char* nvID);
 void editNV(nhanvien nvEdit);
 bool search_nvID(char *nvMA);
-void ghiDSNV(char* tenfile);// ghi file
+void ghifile(char* tenfile);// ghi file
 //--------------------------------------------
 //ham int main
 int main()
 {
 	docfile(tenfile);
-	nhanvien nv1,nv2;
-//	strcpy(nv1.nhanvienID,"001");
-//	strcpy(nv1.hoten,"Nguyen Van A");
-//	nv1.tuoi = 30;
-//	nv1.luong = 30000;
-//	strcpy(nv2.nhanvienID,"002");
-//	strcpy(nv2.hoten,"Nguyen Van B");
-//	nv2.tuoi = 35;
-//	nv2.luong = 34000;
-	themNV(nv1);
-	themNV(nv2);
-	
 	cout << "\t\tThong tin nhan vien ban dau" << endl;
 	inDSNV();
 	///bat dau xu ly
 	showMenu();
 	chon();
-//	cout << s << endl;
 	system("pause");
 }
 //--------------------------------------------
