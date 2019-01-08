@@ -18,10 +18,7 @@ void chon();
 
 int main()
 {
-//	menu();
 	chon();
-//	tinhdiem();
-//	system("pause");
 }
 //------------------------------------------------------------------
 // ham doc cau hoi tu file
@@ -63,7 +60,6 @@ void OutputQuestion(vector <dethi> &cauhoi){
 //------------------------------------------------------------------
 // ham kiem tra cau tra loi co dung hay khong.
 bool check(dethi &q){
-	int scores = 0;
 	string answer_player;
 	cout << "Your answer is: ";
 	cin >> answer_player;
